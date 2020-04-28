@@ -1,0 +1,16 @@
+[package]
+name = "amethyst-mandelbrot"
+version = "0.1.0"
+authors = ["Lars Mühmel <larsmuehmel@web.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+amethyst = { version = "0.15.0", features = ["vulkan", "shader-compiler"] }
+log = "0.4.8"
+amethyst_error = "0.5.0"
+derivative = "1"
+glsl-layout = "0.3.2"
+lazy_static = "1.4.0"
+failure = "0.1.7"
