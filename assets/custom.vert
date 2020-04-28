@@ -12,7 +12,6 @@ layout(std140, set = 0, binding = 0) uniform CustomUniformArgs {
 layout(location = 0) in vec2 pos;
 
 layout(location = 0) out vec2 coordinate;
-layout(location = 1) out int max_iters;
 
 
 void main() {
